@@ -12,7 +12,8 @@
 				"ms-vscode.powershell",
 				"hashicorp.terraform",
 				"tfsec.tfsec",
-				"esbenp.prettier-vscode"
+				"esbenp.prettier-vscode",
+				"ms-azuretools.vscode-docker"
 			]
 		}
 	},
@@ -34,6 +35,7 @@
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {},
 		"ghcr.io/lukewiwa/features/shellcheck:0": {},
-		"ghcr.io/devcontainers/features/github-cli:1": {}
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:3": {}
 	}
 }
